@@ -1,0 +1,61 @@
+baseurl = "/"
+languageCode = "en-us"
+defaultLanguageContent = "en-us"
+title = "Climostatistics"
+theme = "climotheme"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
+[permalinks]
+    post = "/:year/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/Climostatisticss"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/rstudio"
+
+[params]
+    description = "Devoted to bringing statistical rigor to Climate Science"
+
+    dateFormat = "2 January 2006"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+    sidebarBehavior = 1
+    thumbnailImage = true
+    thumbnailImagePosition = "right"
+    autoThumbnailImage = true
+    coverImage = "images/cover.jpg"
+#  favicon = /favicon.png
+    imageGallery = true
+    hierarchicalCategories = true
+    syntaxHighlighter = 'highlight.js'
+
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+[Author]
+    name = "Kate Belisle"
+    bio = "Senior Research Statistician"
+    job = "Truth-telling"
+    location = "Effingham, New Hampshire"

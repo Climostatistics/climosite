@@ -1,0 +1,6 @@
+[submodule "themes/climotheme"]
+	path = themes/climotheme
+	url = https://github.com/Climostatistics/climotheme
+[submodule "public"]
+	path = public
+	url = https://github.com/Climostatistics/climostatistics.github.io.git

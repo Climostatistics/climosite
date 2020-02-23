@@ -21,6 +21,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Twitter"
     url = "https://twitter.com/rstudio"
 
+[markup]
+   defaultMarkdownHandler = "blackfriday"
+
 [params]
     description = "Devoted to bringing statistical rigor to Climate Science"
 
